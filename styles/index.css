@@ -2,4 +2,48 @@
 
 header > h1 {
 	font-family: "Press Start 2P", system-ui;
+	display:block;
+}
+.flexs{
+	display: flex;
+}
+
+
+h2 {
+	font-family: "Press Start 2P", system-ui;
+	display:block;
+	max-width: 500px;
+	text-align: center;
+}
+
+section div p {
+	max-width: 500px;
+}
+
+a{
+	font-family: "Press Start 2P", system-ui;
+	border-radius: 25px;
+	background: #dbcb8a;
+	padding: 5px 10px;
+	margin: 4px;
+	font-size: 24px;
+	display:inline-block;
+	width: fit-content;
+	text-decoration: none;
+	color: black;
+}
+
+a:visited, a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: blue;
+}
+
+a:active {
+	text-decoration: underline;
+	color: black;
 }
