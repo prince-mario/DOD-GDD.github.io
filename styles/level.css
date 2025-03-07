@@ -5,57 +5,45 @@
 	box-sizing: border-box;
 }
 
-html {
-  --size: 70%;
+.sizes{
+	flex: auto;
+	min-width: 750px;
+	max-width: 1170px;
 }
 
 header{
-	display: felx;
 	justify-content: center;
-	background-color: red;
+	display: flex;
+	background-color: #006241;
 	height: 300px;
-}
-
-header > div {
-	display: felx;
-	justify-content: center;
-	height: 300px;
-	min-width: 750px;
-	max-width: 1170px;
-	background-color: blue;
 }
 
 header > div > h1 {
 	font-family: "Press Start 2P", system-ui;
+	font-size: 4rem;
 	text-align: center;
-	max-width: var(--size);
-	border-top: 5px;
-	margin: 0px auto 75px;
-}
-
-.flexs{
-	display: flex;
+	margin: 10px auto 60px;
 }
 
 
 
 main {
 	background-color: green;
+	justify-content: center;
+	display: flex;
 }
 
 main > div {
-	min-width: 750px;
-	max-width: 1170px;
-	background-color: snow;
-	top: -110px;
+	background-color: #d4e9e2;
 	position: relative;
+	top: -110px;
 }
 
 h2 {
 	font-family: "Press Start 2P", system-ui;
 	display:block;
-	max-width: 500px;
 	text-align: center;
+	font-size: 2rem;
 }
 
 nav {
