@@ -41,6 +41,10 @@ main > div {
 	box-shadow: 0 0 20px rgb(0, 0, 0, 50%);
 }
 
+main > div > div {
+	padding: 25px;
+}
+
 h2 {
 	font-family: "Press Start 2P", system-ui;
 	display:block;
