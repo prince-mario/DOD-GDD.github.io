@@ -3,6 +3,7 @@
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
+	color: #202020;
 }
 
 .sizes{
@@ -12,13 +13,12 @@
 }
 
 body{
-	background-color: #ac6b26;
+	background-color: #725956;
 }
 
 header{
 	justify-content: center;
 	display: flex;
-	background-color: #ac6b26;
 	height: 300px;
 }
 
@@ -37,21 +37,27 @@ nav > ul > li {
 
 
 main {
-	background-color: #563226;
 	justify-content: center;
 	display: flex;
 }
 
 main > div {
-	background-color: #bb7f57;
+	background-color: #fff6d3;
 	position: relative;
 	top: -110px;
 	border-radius: 1rem;
 	box-shadow: 0 0 20px rgb(0, 0, 0, 50%);
 }
 
-main > div > div {
+main > div > section {
 	padding: 25px;
+}
+
+img{
+	width: 600px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 h2 {
