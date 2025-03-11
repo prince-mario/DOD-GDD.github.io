@@ -35,6 +35,11 @@ nav {
 	justify-content: center;
 }
 
+nav > ul > li {
+	display: inline;
+}
+
+
 section div p {
 	max-width: 500px;
 }

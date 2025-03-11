@@ -11,10 +11,14 @@
 	max-width: 1170px;
 }
 
+body{
+	background-color: #ac6b26;
+}
+
 header{
 	justify-content: center;
 	display: flex;
-	background-color: #006241;
+	background-color: #ac6b26;
 	height: 300px;
 }
 
@@ -23,18 +27,23 @@ header > div > h1 {
 	font-size: 4rem;
 	text-align: center;
 	margin: 10px auto 60px;
+	color: #f6cd26;
+}
+
+nav > ul > li {
+	display: inline;
 }
 
 
 
 main {
-	background-color: green;
+	background-color: #563226;
 	justify-content: center;
 	display: flex;
 }
 
 main > div {
-	background-color: #d4e9e2;
+	background-color: #bb7f57;
 	position: relative;
 	top: -110px;
 	border-radius: 1rem;
@@ -57,14 +66,10 @@ nav {
 	margin: auto;
 }
 
-section {
-	max-width: 500px;
-}
-
 a{
 	font-family: "Press Start 2P", system-ui;
 	border-radius: 25px;
-	background: #57f364;
+	background: #f6cd26;
 	padding: 5px 10px;
 	margin: 4px;
 	font-size: 24px;
